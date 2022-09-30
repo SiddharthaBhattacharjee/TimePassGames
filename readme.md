@@ -5,6 +5,7 @@ A one stop website for all mini games for your booring and lazy times, comfort g
 ## How To Contribute?
 
 Feel Free to add your own game to the website, just make sure it is not already a part of the website. Clone the repository , add your game folder, create a section for your game in the home page and you are good to go.
+If you want to improve the way the website looks, feel free to make changes in the CSS and create a Pull request.
 
 ## steps to contribute
 
