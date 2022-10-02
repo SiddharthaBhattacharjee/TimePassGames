@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#heading{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+#score{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+#game{
+    border-style: solid;
+    border-color: white;
+    width: 60%;
+    height: 550px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#expl{
+    text-align: center;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: 20px;
+}
+
+#botty{
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: 10px;
+}
+
+#bottyname{
+    color: white;
+    font-family: monospace;
+}
+
+#Bchoice{
+    background-size: 30px 50px;
+    width: 30px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.BCactive{
+    animation: Bchoicea 0.5s linear ;
+}
+
+/* animation to bring down the Bchoice */
+@keyframes Bchoicea{
+    0%{
+        margin-top: -20px;
+        opacity: 0.1;
+    }
+    100%{
+        margin-top: 20px;
+        opacity: 1;
+    }
+}
+
+#res{
+    color: white;
+    font-family:monospace;
+    margin-top: 200px;
+    position: absolute;
+}
+
+#Uchoice{
+    background-size: 30px 50px;
+    margin-top: 250px;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+}
+
+.UCactive{
+    animation: Uchoicea 0.5s linear ;
+}
+
+@keyframes Uchoicea{
+    /* move up the Uchoice */
+    0%{
+        margin-top: 290px;
+        opacity: 0.1;
+    }
+    100%{
+        margin-top: 250px;
+        opacity: 1;
+    }
+}
+
+#you{
+    max-width: 100px;
+    max-height: 100px;
+    position: absolute;
+    margin-top: 310px;
+}
+
+#Uname{
+    color: white;
+    font-family: monospace;
+    position: absolute;
+    margin-top: 400px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:450px;
+    position: absolute;
+    margin-top: 430px;
+}
+
+/* make the button round */
+#buttons .button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* make hover effect for button */
+#buttons .button:hover{
+    border-color: white;
+    opacity: 0.6;
+}
+
+.Btname{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 755px){
+    #buttons{
+        width: 250px;
+    }
+    #game{
+        width: 300px;
+    }
+    #expl{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
