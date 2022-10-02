@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icon.png">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="heading">ROCK PAPER SCISSORS</div>
+    <div id="score">SCORE : 0000</div>
+    <div id="game">
+        <img src="./assets/botty.png" alt="botty" id="botty">
+        <span id="bottyname">E.T.</span>
+        <div id="Bchoice"></div>
+        <div id="res"> Choose an Option to Start the game :) </div>
+        <div id="Uchoice"></div>
+        <img id="you" src="./assets/player.png" alt="You">
+        <span id="Uname">You</span>
+        <div id="buttons">
+            <div class="grup"><img class="button" src="./assets/roc.png" alt="rock" id="rock" onclick="ocRock()"><span class="Btname">Rock</span></div>
+            <div class="grup"><img class="button" src="./assets/sci.png" alt="scissor" id="scissor" onclick="ocScissors()"><span class="Btname">Scissor</span></div>
+            <div class="grup"><img class="button" src="./assets/pap.png" alt="paper" id="paper"  onclick="ocPaper()"><span class="Btname">Paper</span></div>
+        </div>
+    </div>
+    <div id="expl">Play Rock Paper Scissor game with botty and try to set the highest score.<br>
+    You get +1 points for every win, -1 for every loss and +0 for every tie.<br>
+    Best Of Luck :)</div>
+</body>
+</html>
