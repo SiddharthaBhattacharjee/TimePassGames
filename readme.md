@@ -14,3 +14,11 @@ If you want to improve the way the website looks, feel free to make changes in t
 3. Submit a PR.
 4. Wait for your PR to be reviewed, approved & merged by an admin/owner.
 5. If there are issues with your PR, please revise them in accordance to the comments made by the admin.
+
+## Criteria For The Games
+
+1. Game should be single player/ played against computer.
+2. Game should be small scale and quick to play.
+3. Game should be in dark background to match the theme.
+4. Game must have an icon.
+5. Game should be made responsive and have mobile device support (may be added later).
