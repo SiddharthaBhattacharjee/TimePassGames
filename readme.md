@@ -22,3 +22,6 @@ If you want to improve the way the website looks, feel free to make changes in t
 3. Game should be in dark background to match the theme. (preferable only)
 4. Game must have an icon.
 5. Game should be made responsive and have mobile device support (may be added later).
+
+Try Out The Website Here : [Timepass Games](https://siddharthabhattacharjee.github.io/TimePassGames/)<br>
+Note : The Game is in test version and doesnot reflect what the finished product will look like.
