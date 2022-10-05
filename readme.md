@@ -1,10 +1,10 @@
 # Quick Refresher Games
 
-A one stop website for all mini games for your booring and lazy times, comfort games like tik-tak-toe, rock-paper-scissors etc are some games available.
+A one stop website for all mini games for your boring and lazy times, comfort games like tik-tak-toe, rock-paper-scissors etc are some games available.
 
 ## Why Quick Refresher Games?
 
-These games are meant to be quick refreshers that don't take much time to play and donot engage players for a long time. <br>
+These games are meant to be quick refreshers that don't take much time to play and do not engage players for a long time. <br>
 Are you tired from studying too long, play a quick game and get back to your studies with a refreshed mind, the games are quick and won't engage you for long. <br>
 Are you tired of scrolling socials , want a change of pace but too lazy to play a complex game, play a quick refreshing game and get back to your usual fun with a refreshed changed pace. <br>
 Getting bored at a lecture , want to gain back your attention? play a quick little game and get back to your lecture with a refreshed mind.<br>
@@ -34,11 +34,11 @@ If you want to improve the way the website looks, feel free to make changes in t
 ## Games :
 
 1. ### <u>Feed The Snake :</u> <br>
-    The classic snake game that we all are familiar with, feed the snake while avoiding collision with the walls and it's own body. controlls are up, down, right and left arrow keys for Keyboard devices.<br>
+    The classic snake game that we all are familiar with, feed the snake while avoiding collision with the walls and it's own body. controls are up, down, right and left arrow keys for Keyboard devices.<br>
 2. ### <u>Rock Paper Scissors :</u> <br>
     The classic rock paper scissor game from our childhood, you and your opponent (computer) choose one of three options, Rock, paper or scissor, Rock beats scissor, scissor beats paper and paper beats rock. For each win you get +1 points, for each loos you get -1 and for a tie you get 0 points. Try to get the highest score possible.
 3. ### <u>Tik Tak Toe : </u> <br>
-    The classic Tik Tik Toe game we all know and love. You play as X and move first , computer plays as O and moves after you , your objevctive is to capture 3 consecutive spaces in a 3x3 grid either horizontally, vertically or diagonally, first one to do that wins.
+    The classic Tik Tik Toe game we all know and love. You play as X and move first , computer plays as O and moves after you , your objective is to capture 3 consecutive spaces in a 3x3 grid either horizontally, vertically or diagonally, first one to do that wins.
 4. ### <u>Flip Flop Fun : </u> <br>
     It is a game that tests your memory, there are 16 cards in the game, there are 2 of each type of cards i.e. 8 distinct cards, you can flip 2 cards each turn, if you flip the two same cards, you get closer to victory, if you flip different cards, try to remember what you flipped for future turns. If you find all the pairs before the time runs our, you win.
 5. ### <u>Guess The Number : </u> <br>
@@ -49,5 +49,5 @@ If you want to improve the way the website looks, feel free to make changes in t
 <br>
 
 ### Try Out The Website Here : [Timepass Games](https://siddharthabhattacharjee.github.io/TimePassGames/)<br>
-Note : The Game is in test version and doesnot reflect what the finished product will look like.<br><br>
+Note : The Game is in test version and does not reflect what the finished product will look like.<br><br>
 Home Page Icon is provided by [Freepik - Flaticon](https://www.flaticon.com/free-icons/game-controller) , Thank you for letting us use the icon for free.
