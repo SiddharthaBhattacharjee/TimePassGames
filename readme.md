@@ -1,19 +1,19 @@
 # TimePassGames
 
-    A one stop website for all mini games for your booring and lazy times, comfort games like tik-tak-toe, rock-paper-scissors etc are some games available.
+A one stop website for all mini games for your booring and lazy times, comfort games like tik-tak-toe, rock-paper-scissors etc are some games available.
 
 ## Why Timepass Games?
 
-    These games are meant to be quick refreshers that don't take much time to play and donot engage players for a long time. 
-    Are you tired from studying too long, play a quick game and get back to your studies with a refreshed mind, the games are quick and won't engage you for long. 
-    Are you tired of scrolling socials , want a change of pace but too lazy to play a complex game, play a quick refreshing game and get back to your usual fun with a refreshed changed pace. 
-    Getting bored at a lecture , want to gain back your attention? play a quick little game and get back to your lecture with a refreshed mind.
-    We all know how we open a game or social media to get a quick refreshment and end up wasting a lot of time without even realising, well That's not a problem if you play our quick mini games, which are quick to play and will not engage you for long. So get your much needed refreshment without worrying about wasting time.
+These games are meant to be quick refreshers that don't take much time to play and donot engage players for a long time. <br>
+Are you tired from studying too long, play a quick game and get back to your studies with a refreshed mind, the games are quick and won't engage you for long. <br>
+Are you tired of scrolling socials , want a change of pace but too lazy to play a complex game, play a quick refreshing game and get back to your usual fun with a refreshed changed pace. <br>
+Getting bored at a lecture , want to gain back your attention? play a quick little game and get back to your lecture with a refreshed mind.<br>
+We all know how we open a game or social media to get a quick refreshment and end up wasting a lot of time without even realising, well That's not a problem if you play our quick mini games, which are quick to play and will not engage you for long. So get your much needed refreshment without worrying about wasting time.
 
 ## How To Contribute?
 
-    Feel Free to add your own game to the website, just make sure it is not already a part of the website. Clone the repository , add your game folder, create a section for your game in the home page and you are good to go.
-    If you want to improve the way the website looks, feel free to make changes in the CSS and create a Pull request.
+Feel Free to add your own game to the website, just make sure it is not already a part of the website. Clone the repository , add your game folder, create a section for your game in the home page and you are good to go.
+If you want to improve the way the website looks, feel free to make changes in the CSS and create a Pull request.
 
 ## steps to contribute :
 
