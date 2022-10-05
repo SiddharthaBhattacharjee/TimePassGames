@@ -49,4 +49,5 @@ If you want to improve the way the website looks, feel free to make changes in t
 <br>
 
 ### Try Out The Website Here : [Timepass Games](https://siddharthabhattacharjee.github.io/TimePassGames/)<br>
-Note : The Game is in test version and doesnot reflect what the finished product will look like.
+Note : The Game is in test version and doesnot reflect what the finished product will look like.<br><br>
+Home Page Icon is provided by [Freepik - Flaticon](https://www.flaticon.com/free-icons/game-controller) , Thank you for letting us use the icon for free.
