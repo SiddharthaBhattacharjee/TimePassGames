@@ -1,8 +1,8 @@
-# TimePassGames
+# Quick Refresher Games
 
 A one stop website for all mini games for your booring and lazy times, comfort games like tik-tak-toe, rock-paper-scissors etc are some games available.
 
-## Why Timepass Games?
+## Why Quick Refresher Games?
 
 These games are meant to be quick refreshers that don't take much time to play and donot engage players for a long time. <br>
 Are you tired from studying too long, play a quick game and get back to your studies with a refreshed mind, the games are quick and won't engage you for long. <br>
