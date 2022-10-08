@@ -10,13 +10,6 @@ body{
     background-size: auto;
 }
 
-#tsnote{
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    display: none;
-}
-
 #header{
     text-align: center;
     color: white;
@@ -121,25 +114,3 @@ h1{
     color: black;
     font-family: 'Ubuntu', sans-serif;
   }
-
-
-@media screen and (max-width: 769px){
-    #header{
-        display: none;
-    }
-    #gamelist{
-        display: none;
-    }
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    #tsnote{
-        display: inherit;
-    }
-    footer{
-        display: none;
-    }
-}
