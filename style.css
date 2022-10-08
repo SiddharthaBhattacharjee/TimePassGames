@@ -10,13 +10,6 @@ body{
     background-size: auto;
 }
 
-#tsnote{
-    color: red;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-    display: none;
-}
-
 #header{
     text-align: center;
     color: white;
@@ -33,6 +26,7 @@ body{
 
 .rows{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -40,6 +34,7 @@ body{
 
 .segment{
     display: flex;
+    flex-basis: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -121,25 +116,3 @@ h1{
     color: black;
     font-family: 'Ubuntu', sans-serif;
   }
-
-
-@media screen and (max-width: 769px){
-    #header{
-        display: none;
-    }
-    #gamelist{
-        display: none;
-    }
-    body{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    #tsnote{
-        display: inherit;
-    }
-    footer{
-        display: none;
-    }
-}
