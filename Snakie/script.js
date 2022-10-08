@@ -258,4 +258,21 @@ $(function(){
     $(document).on("keydown", function(e){
         turning(e);
     })
+
+    if ('ontouchstart' in window) {
+        $('.move_up').on('touchstart', function () {
+            turning({which: 38});
+        });
+        $('.move_down').on('touchstart', function () {
+            turning({which: 40});
+        });
+        $('.move_left').on('touchstart', function () {
+            turning({which: 37});
+        });
+        $('.move_right').on('touchstart', function () {
+            turning({which: 39});
+        });
+    } else {
+        $('.touch_controls').hide();
+    }
 })
