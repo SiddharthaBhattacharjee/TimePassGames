@@ -42,6 +42,7 @@ $(function(){
 
     // getting the initial random position of food
     var foodPosition = get_random_food_position();
+    set_food_position();
     
     // function makers
     function difficulty(e){
@@ -104,10 +105,7 @@ $(function(){
             });
 
             foodPosition = get_random_food_position();
-            food.css({
-                "top": `+=${foodPosition.y}`,
-                "left": `+=${foodPosition.x}`
-            });
+            set_food_position()
             scoreel.text(`Score: ${score}`)
             score = score + 1;
             counter = counter + 1; 
@@ -213,8 +211,7 @@ $(function(){
 
     var stop = setInterval(timekeeper, 1000)
     var stopper = setInterval(move, t);
-    
-    set_food_position();
+
     // event listeners
     show.on("click", function(){
         go.css({
@@ -237,12 +234,12 @@ $(function(){
         list = ["right"]
         corx = []
         cory = []
-        foodPosition = get_random_food_position();
         umm = $("#first").nextAll().remove()
         var foodder = document.getElementById("ah")
         umm2 = document.getElementById("first")
         foodder.style.top = "0px"
         foodder.style.left = "0px"
+        foodPosition = get_random_food_position();
         set_food_position()
         umm2.style.top = "-20px"
         umm2.style.left = "0px"
