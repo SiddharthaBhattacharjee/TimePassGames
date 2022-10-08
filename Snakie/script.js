@@ -26,10 +26,6 @@ $(function(){
     var corx = []
     var cory = []
 
-    //setting up the time position
-    var w = time.width()
-    time1.style.left = `${(Swidth/2) - (w/2)}px`
-    
     // setting up the score
     scoreel.text("Score: 0")
     

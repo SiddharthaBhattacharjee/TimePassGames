@@ -99,8 +99,8 @@ body {
 #time {
     padding: 0px 5px 0 5px;
     min-width: 150px;
-    left: 47%;
 }
+
 select {
     font-size: 16px;
     background-color: rgb(131, 87, 87);
