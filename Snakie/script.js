@@ -40,9 +40,8 @@ $(function(){
         "width": `+=${gwidth}`
     })
 
-    // getting the initial random position of food 
-    var foodx = 20*(Math.floor((gwidth/20)*(Math.random()))) 
-    var foody = 20*(Math.floor((gheight/20)*(Math.random())))
+    // getting the initial random position of food
+    var foodPosition = get_random_food_position();
     
     // function makers
     function difficulty(e){
@@ -59,13 +58,22 @@ $(function(){
         counting = counting + 1
     }
 
-    function food_position(){
+    function get_random_food_position() {
+        var cols = gwidth/20;
+        var rows = gheight/20;
+
+        var x = 20 * (Math.min(cols - 1, Math.floor(cols * Math.random())));
+        var y = 20 * (Math.min(rows - 1, Math.floor(rows * Math.random())));
+
+        return {x: x, y: y};
+    }
+
+    function set_food_position(){
         food.css({
-            "top": `+=${foody}`,
-            "left": `+=${foodx}`
+            "top": `+=${foodPosition.y}`,
+            "left": `+=${foodPosition.x}`
         });
     }
-    
 
     function increase(){
         color1 = Math.floor(255*Math.random())+1
@@ -86,29 +94,25 @@ $(function(){
             });
             if (counter === 1){
                 food.css({
-                    "top": `-=${foody}`,
-                    "left": `-=${foodx}`
+                    "top": `-=${foodPosition.y}`,
+                    "left": `-=${foodPosition.x}`
                 });
-                var nfoodx = 20*(Math.floor((gwidth/20)*(Math.random()))) 
-                var nfoody = 20*(Math.floor((gheight/20)*(Math.random())))
-            }else{
-                var nfoodx = 20*(Math.floor((gwidth/20)*(Math.random()))) 
-                var nfoody = 20*(Math.floor((gheight/20)*(Math.random())))
             }
             food.css({
                 "top": `-=${catchery}`,
                 "left": `-=${catcherx}`
             });
-            
+
+            foodPosition = get_random_food_position();
             food.css({
-                "top": `+=${nfoody}`,
-                "left": `+=${nfoodx}`
+                "top": `+=${foodPosition.y}`,
+                "left": `+=${foodPosition.x}`
             });
             scoreel.text(`Score: ${score}`)
             score = score + 1;
             counter = counter + 1; 
-            catcherx = nfoodx;
-            catchery = nfoody;
+            catcherx = foodPosition.x;
+            catchery = foodPosition.y;
         }
         var p = document.getElementsByClassName("snake")
         var len = p.length
@@ -210,7 +214,7 @@ $(function(){
     var stop = setInterval(timekeeper, 1000)
     var stopper = setInterval(move, t);
     
-    food_position();
+    set_food_position();
     // event listeners
     show.on("click", function(){
         go.css({
@@ -233,14 +237,13 @@ $(function(){
         list = ["right"]
         corx = []
         cory = []
-        foodx = 20*(Math.floor((gwidth/20)*(Math.random()))) 
-        foody = 20*(Math.floor((gheight/20)*(Math.random())))
+        foodPosition = get_random_food_position();
         umm = $("#first").nextAll().remove()
         var foodder = document.getElementById("ah")
         umm2 = document.getElementById("first")
         foodder.style.top = "0px"
         foodder.style.left = "0px"
-        food_position()
+        set_food_position()
         umm2.style.top = "-20px"
         umm2.style.left = "0px"
         stop = setInterval(timekeeper, 1000)
