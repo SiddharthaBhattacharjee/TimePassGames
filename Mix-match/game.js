@@ -151,10 +151,17 @@ function ready() {
             overlay.classList.remove('visible');
             game.startGame();
         });
+        overlay.addEventListener('touchstart', () => {
+            overlay.classList.remove('visible');
+            game.startGame();
+        });
     });
 
     cards.forEach(card => {
         card.addEventListener('click', () => {
+            game.flipCard(card);
+        });
+        card.addEventListener('touchstart', () => {
             game.flipCard(card);
         });
     });
