@@ -26,6 +26,7 @@ body{
 
 .rows{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -33,6 +34,7 @@ body{
 
 .segment{
     display: flex;
+    flex-basis: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
