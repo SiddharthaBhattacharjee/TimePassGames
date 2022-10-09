@@ -76,7 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    width: 200px;
+    width: 150px;
     background-color: rgb(44, 23, 58);
     color: rgb(177, 223, 13);
     opacity: 0.6;
@@ -85,26 +85,11 @@ body {
 }
 
 #score {
-    
     right: 0px;
 }
 
-#level {
-    padding: 0px 5px 0 5px;
-    display: none;
-    left: 0px;
-    min-width: 150px;
-}
-
 #time {
-    padding: 0px 5px 0 5px;
-    min-width: 150px;
-}
-
-select {
-    font-size: 16px;
-    background-color: rgb(131, 87, 87);
-    color: white;
+    left:0px;
 }
 
 #gameover {
@@ -116,7 +101,7 @@ select {
     transform: translate(-50%, -50%);
     height: 400px;
     z-index: 1;
-    width: 500px;
+    width: 320px;
     border-right: 5px solid rgb(46, 42, 42);
     border-bottom: 5px solid rgb(46, 42, 42);
     box-shadow: 0px 0px 5px 5px rgb(48, 46, 46);
