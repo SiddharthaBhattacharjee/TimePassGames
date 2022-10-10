@@ -1,4 +1,4 @@
-# Contriuters:
+# Contributers:
 
 1. [Siddhartha Bhattacharjee](https://github.com/SiddharthaBhattacharjee)
 2. [Ansh Ojha](https://github.com/Anshojha)
