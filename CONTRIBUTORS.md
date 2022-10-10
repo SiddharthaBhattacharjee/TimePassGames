@@ -5,3 +5,4 @@
 3. [Tapesh-Vashisth](https://github.com/Tapesh-Vashisth)
 4. [Subhojeet Das](https://github.com/SubhojeetDas1107)
 5. [Arnab Kumar Singh ](https://github.com/Arnab-K-S)
+6. [Akash Kotal](https://github.com/sky01green)
