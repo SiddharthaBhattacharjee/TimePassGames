@@ -221,3 +221,27 @@
   .alert.hide {
     opacity: 0;
   }
+
+
+  @media (max-width:450px) {
+    .guess-grid{
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      flex-grow: 1;
+      grid-template-columns: repeat(5, 5em);
+      grid-template-rows: repeat(6, 5em);
+      gap: .25em;
+      margin-bottom: 1.5em;
+    }
+    .keyboard {
+      display: grid;
+      grid-template-columns: repeat(20, minmax(auto, 1.25em));
+      grid-auto-rows: 4em;
+      gap: .25em;
+      justify-content: center;
+      margin-bottom: 1.5em;
+      margin-bottom: 100px;
+    }
+  }
+
