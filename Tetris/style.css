@@ -13,4 +13,71 @@ html, body {
   canvas {
     border: 1px solid white;
   }
-  </style>
+  
+/* Buttons */
+.touch_controls{
+  
+  position: absolute;
+  display: none;
+  bottom: 0%;
+}
+
+
+.touch_controls div{
+  border:2px solid white;
+  columns: red;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  font-size: 50px;
+  opacity: 0.4;
+}
+
+
+
+  @media (max-width:800px){
+   canvas{
+    border: 1px solid white;
+    /* border: none; */
+    height: 100%;
+    width: 100%;
+    background: fixed;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+   }
+   .touch_controls{
+    display: flex;
+    bottom: 0%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    position: absolute;
+  }
+  
+  
+  .touch_controls div{
+    border:2px solid white;
+    columns: red;
+    width: 100px;
+    height: 75px;
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.5;
+    /* bottom: 0; */
+    /* margin-bottom: 0%; */
+  }
+  
+  
+  .touch_controls .move_left {
+    bottom: 0%;
+  }
+  .touch_controls .rotate{
+    bottom: 0%;
+  }
+  .touch_controls .move_right {
+    bottom: 0%;
+  }
+
+  }

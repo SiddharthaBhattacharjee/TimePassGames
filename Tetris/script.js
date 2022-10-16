@@ -2,6 +2,17 @@
 
 // get a random integer between the range of [min,max]
 // @see https://stackoverflow.com/a/1527820/2124254
+
+
+
+//selecting element using class
+const touch_controls = document.querySelectorAll(".touch_controls");
+const move_left = document.querySelector(".move_left");
+const move_right = document.querySelector(".move_right");
+
+
+
+
 function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -247,8 +258,7 @@ function getRandomInt(min, max) {
       }
     }
   }
-  
-  // listen to keyboard events to move the active tetromino
+    // listen to keyboard events to move the active tetromino
   document.addEventListener('keydown', function(e) {
     if (gameOver) return;
   
@@ -285,6 +295,33 @@ function getRandomInt(min, max) {
       tetromino.row = row;
     }
   });
+
+  let rightbtn = document.getElementById("rbtn");
+  let leftbtn = document.getElementById("lbtn");
+  let rotbtn = document.getElementById("cbtn");
+
+  rightbtn.addEventListener("click",()=>{
+    const col = tetromino.col - 1;
+    if (isValidMove(tetromino.matrix, tetromino.row, col)) {
+      tetromino.col = col;
+    }
+  });
+
+  leftbtn.addEventListener("click",()=>{
+    const col = tetromino.col + 1;
+    if (isValidMove(tetromino.matrix, tetromino.row, col)) {
+      tetromino.col = col;
+    }
+  });
+
+  rotbtn.addEventListener("click",()=>{
+    const matrix = rotate(tetromino.matrix);
+    if (isValidMove(matrix, tetromino.row, tetromino.col)) {
+      tetromino.matrix = matrix;
+    }
+  })
+ 
+  
   
   // start the game
   rAF = requestAnimationFrame(loop);
