@@ -116,3 +116,17 @@ h1{
     color: black;
     font-family: 'Ubuntu', sans-serif;
   }
+
+
+  @media (max-width:750px) {
+
+    #footer{
+        height: auto;
+    }
+
+    .fpara{
+    padding-left: 84px;
+    }
+}
+    
+  
